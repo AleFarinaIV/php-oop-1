@@ -12,7 +12,7 @@ class Movie
     public $releaseYear;
 
     // definizione della funzione __construct
-    public function __construct($title, $genre, $director, $lenght, $releaseYear)
+    public function __construct($title, array $genre, $director, $lenght, $releaseYear)
     {   
         $this->title = $title;
         $this->genre = $genre;
@@ -29,9 +29,9 @@ class Movie
 }
 
     // creazione d'istanze della classe Movie
-    $movie1 = new Movie("'La quinta onda'", "di fantascienza", "J Blakeson", "112min", "2016");
-    $movie2 = new Movie("'Titanic'", "sentimentale", "James Cameron", "195min", "1997");
-    $movie3 = new Movie("'L'esorcista del papa'", "horror-biografico", "Julius Avery", "103min", "2023")
+    $movie1 = new Movie("'La quinta onda'", ["Fantascienza", "/", "Azione"], "J Blakeson", "112min", "2016");
+    $movie2 = new Movie("'Titanic'", ["Sentimentale"], "James Cameron", "195min", "1997");
+    $movie3 = new Movie("'L'esorcista del papa'", ["Horror", "/", "Biografico"], "Julius Avery", "103min", "2023")
 
 ?>
 
