@@ -1,6 +1,10 @@
 <?php 
 class Movie {
-
+    public $genre;
+    public $description;
+    public $lenght;
+    public $director;
+    public $releaseYear;
 }
 
 ?>
