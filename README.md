@@ -13,3 +13,4 @@ Creazione del file index.php
     definizione di una classe 'Movie'
         all'interno della classe definire delle variabili d'istanza
         successivamente definire la funzione __construct
+        definire almeno un metodo
