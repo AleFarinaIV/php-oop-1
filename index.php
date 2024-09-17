@@ -29,9 +29,9 @@ class Movie
 }
 
     // creazione d'istanze della classe Movie
-    $movie1 = new Movie("La quinta onda", "fantascienza", "J Blakeson", "112min", "2016");
-    $movie2 = new Movie("Titanic", "sentimentale", "James Cameron", "195min", "1997");
-    $movie3 = new Movie("L'esorcista del papa", "horror-biografico", "Julius Avery", "103min", "2023")
+    $movie1 = new Movie("'La quinta onda'", "di fantascienza", "J Blakeson", "112min", "2016");
+    $movie2 = new Movie("'Titanic'", "sentimentale", "James Cameron", "195min", "1997");
+    $movie3 = new Movie("'L'esorcista del papa'", "horror-biografico", "Julius Avery", "103min", "2023")
 
 ?>
 
@@ -47,6 +47,16 @@ class Movie
 </head>
 
 <body>
+    <div class="container py-5 fs-5">
+        <h2 class="text-danger mb-4">Descrizione dei film</h2>
+        <div class="row">
+            <div class="col-12">
+                <p class="py-2"><?php echo $movie1->movieInfos()?></p>
+                <p class="py-2"><?php echo $movie2->movieInfos()?></p>
+                <p class="py-2"><?php echo $movie3->movieInfos()?></p>
+            </div>
+        </div>
+    </div>
 
 </body>
 

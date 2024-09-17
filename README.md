@@ -15,3 +15,4 @@ Creazione del file index.php
         successivamente definire la funzione __construct
         definire almeno un metodo
     istanziare almeno due oggetti per la classe 'Movie'
+    stampare a schermo i valori delle relative proprietà
