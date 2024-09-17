@@ -28,6 +28,11 @@ class Movie
     }
 }
 
+    // creazione d'istanze della classe Movie
+    $movie1 = new Movie("La quinta onda", "fantascienza", "J Blakeson", "112min", "2016");
+    $movie2 = new Movie("Titanic", "sentimentale", "James Cameron", "195min", "1997");
+    $movie3 = new Movie("L'esorcista del papa", "horror-biografico", "Julius Avery", "103min", "2023")
+
 ?>
 
 <!DOCTYPE html>
