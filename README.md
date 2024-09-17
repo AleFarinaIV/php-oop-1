@@ -12,3 +12,4 @@ Oggi pomeriggio ripassate i primi concetti di classe, variabili e metodi d'istan
 Creazione del file index.php
     definizione di una classe 'Movie'
         all'interno della classe definire delle variabili d'istanza
+        successivamente definire la funzione __construct
